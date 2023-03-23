@@ -1,0 +1,15 @@
+POST http://localhost:8080/upload HTTP/1.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"
+
+title
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="1.png"
+Content-Type: image/png
+
+< ./https://res.cloudinary.com/dt12juarm/image/upload/v1679545569/wrysijo2ch4qeauikmpx.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
